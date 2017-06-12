@@ -1,0 +1,7 @@
+.DS_Store
+node_modules
+sessions
+typings
+
+*.js
+*.js.map
