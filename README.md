@@ -1,5 +1,7 @@
 **I am fully aware I left sensitive information in the .env file. This was done on purpose so the project could be easly cloned and immediately run. There is nothing in there you can do anything melicous with...I think :)**
 
+**If the bot does not hit the Search intent as you expect, my quota might be up for the month on the LUIS subscription key...you can replace it with your own subscription key as the LUIS model is published publically. OR, you can publish your own LUIS model using the LUIS model export in the root of the project**
+
 # Microsoft Graph Sentiment Analysis Bot
 This repository contains a hands on lab (HOL) for building a Bot Framework bot that connects to the [Microsoft Graph](https://developer.microsoft.com/en-us/graph/) for mail messages and performs sentiment analysis on those messages using the [Microsoft Text Analytics cognitive service](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/quick-start). The completed solution is available in this repo in case you have issues with the HOL.
 
