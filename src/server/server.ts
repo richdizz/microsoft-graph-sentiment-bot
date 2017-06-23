@@ -42,6 +42,11 @@ export class Server {
 
         // create dialogs for specific intents
         let dlg = new searchDialog(authHelper);
+        bot.dialog('/', [
+            function (session, args, next) {
+                session.send('No intent matched');
+            }
+        ]);
         bot.dialog(dlg.id, dlg.waterfall).triggerAction({ matches: dlg.name });
     }
 }
